@@ -23,4 +23,5 @@ jdk: orcalejdk7
 notifications: false
 before_script:
 	- chmod +x gradlew
-script: ./gradlew build check
+script: 
+    - ./gradlew build check
